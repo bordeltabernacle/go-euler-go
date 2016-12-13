@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("Problem One: %d\n", one.MultiplesOf(1000))
+	fmt.Printf("\nProblem One: %d\n", one.SumMultiplesOf(1000, 3, 5))
 }
