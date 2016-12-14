@@ -1,7 +1,7 @@
 package one
 
 // SumMultiplesOf sums all the natural numbers up to, but not including, below,
-// that are multiples of the given multiples
+// that are multiples of the given set of integers
 func SumMultiplesOf(below int, multiples ...int) (s int) {
 	for i := 1; i < below; i++ {
 		if multipleOf(i, multiples) {
